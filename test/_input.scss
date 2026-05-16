@@ -1,6 +1,5 @@
 /* stylelint-disable @stylistic/max-line-length */
-body
-{
+body {
   overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
@@ -15,8 +14,7 @@ body
   @include font_weight(regular);
 }
 
-.section-hero
-{
+.section-hero {
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -24,81 +22,68 @@ body
   padding-top: $spacing_128;
   padding-bottom: $spacing_64;
 
-  @include responsive(small_desktop)
-  {
+  @include responsive(small_desktop) {
     flex-direction: row;
     padding-top: $spacing_160;
   }
 }
 
-.section-hero__container
-{
+.section-hero__container {
   display: flex;
   flex-direction: column;
   gap: $spacing_40;
   width: 100%;
 
-  @include responsive(phone)
-  {
+  @include responsive(phone) {
     align-items: flex-start;
   }
 
-  @include responsive(small_desktop)
-  {
+  @include responsive(small_desktop) {
     width: 50%;
   }
 }
 
-.section-hero__title
-{
+.section-hero__title {
   font-size: $h3;
   line-height: 1;
   letter-spacing: -$spacing_1;
 
   @include font_weight(extra_bold);
 
-  @include responsive(phone)
-  {
+  @include responsive(phone) {
     font-size: $h1;
   }
 
-  @include responsive(tablet)
-  {
+  @include responsive(tablet) {
     font-size: $xs !important;
   }
 
-  @include responsive(desktop)
-  {
+  @include responsive(desktop) {
     font-size: $xl !important;
   }
 }
 
-.section-hero__container-title
-{
+.section-hero__container-title {
   display: flex;
   flex-direction: column;
   gap: $spacing_20;
 }
 
-.section-hero__description
-{
+.section-hero__description {
   line-height: 1.5;
 
-  @include responsive(tablet)
-  {
+  @include responsive(tablet) {
     font-size: $h5;
   }
 }
 
-.section-hero__container-button
-{
+.section-hero__container-button {
   display: flex;
   flex-direction: column;
   gap: $spacing_56;
 }
 
-.section-hero__container-arrow
-{
+.section-hero__container-arrow {
   position: relative;
   display: flex;
   gap: $spacing_32;
@@ -106,13 +91,11 @@ body
   width: 100%;
 }
 
-.section-hero__arrow
-{
+.section-hero__arrow {
   width: $spacing_160;
 }
 
-.section-hero__text-arrow
-{
+.section-hero__text-arrow {
   position: relative;
   top: -$spacing_12;
   transform: rotate(-5deg);
@@ -124,8 +107,7 @@ body
   border-radius: $rounded_max;
   box-shadow: $shadow_down_black_300;
 
-  &::before
-  {
+  &::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -138,16 +120,14 @@ body
   }
 }
 
-.section-hero__container-image
-{
+.section-hero__container-image {
   position: relative;
   width: 100%;
   max-width: 70rem;
   margin: auto;
   margin-top: $spacing_64;
 
-  &::before
-  {
+  &::before {
     content: '';
     position: absolute;
     z-index: -1;
@@ -158,33 +138,28 @@ body
     height: 55rem;
     background: radial-gradient(100% 100% at 50% 50%, rgba($primary_500, 0.5) 0, rgba($primary_500, 0.1) 40%, rgba($white, 0) 50%);
 
-    @include responsive(tablet)
-    {
+    @include responsive(tablet) {
       width: 75rem;
       height: 75rem;
     }
   }
 
-  @include responsive(small_desktop)
-  {
+  @include responsive(small_desktop) {
     max-width: 50rem;
     margin-top: 0;
   }
 
-  @include responsive(desktop)
-  {
+  @include responsive(desktop) {
     max-width: 60rem;
   }
 }
 
-.section-hero__image
-{
+.section-hero__image {
   aspect-ratio: 257/282;
   margin: auto;
 }
 
-.section-hero__icon
-{
+.section-hero__icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -193,15 +168,13 @@ body
   margin-top: -$spacing_56;
   fill: transparent;
 
-  @include responsive(small_tablet)
-  {
+  @include responsive(small_tablet) {
     width: $spacing_128;
     height: $spacing_128;
   }
 }
 
-.section-hero__container-rating
-{
+.section-hero__container-rating {
   position: absolute;
   z-index: $z_10;
   bottom: 0;
@@ -219,29 +192,24 @@ body
   box-shadow: $shadow_down_black_400;
 }
 
-.section-hero__star
-{
+.section-hero__star {
   fill: $warning_400;
 
-  @include responsive(desktop)
-  {
+  @include responsive(desktop) {
     width: $spacing_44;
     height: $spacing_44;
   }
 }
 
-.section-hero__text-rating
-{
+.section-hero__text-rating {
   font-size: $sm;
 
-  @include responsive(desktop)
-  {
+  @include responsive(desktop) {
     font-size: $h6;
   }
 }
 
-.section-hero__underline
-{
+.section-hero__underline {
   position: absolute;
   z-index: -1;
   bottom: -$spacing_64;
@@ -250,8 +218,7 @@ body
   width: 35rem;
   opacity: 0.3;
 
-  @include responsive(desktop)
-  {
+  @include responsive(desktop) {
     bottom: -$spacing_80;
     width: 55rem;
   }
