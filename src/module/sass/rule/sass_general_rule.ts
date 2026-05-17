@@ -24,7 +24,6 @@ const sassGeneralRule = {
   'scss/double-slash-comment-whitespace-inside': 'always',
   'scss/function-calculation-no-interpolation': true,
   'scss/function-color-relative': true,
-  'scss/function-no-unknown': true,
   'scss/function-quote-no-quoted-strings-inside': true,
   'scss/function-unquote-no-unquoted-strings-inside': true,
   'scss/load-no-partial-leading-underscore': true,
