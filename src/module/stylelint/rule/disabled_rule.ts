@@ -9,6 +9,7 @@ const disabledRule = {
   'declaration-no-important': null,
   'declaration-property-max-values': null,
   'declaration-property-unit-allowed-list': null,
+  'function-no-unknown': null,
   'declaration-property-unit-disallowed-list': null,
   'declaration-property-value-allowed-list': null,
   'declaration-property-value-disallowed-list': null,
