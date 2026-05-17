@@ -21,6 +21,7 @@ const sassGeneralRule = {
   'scss/dollar-variable-colon-space-before': 'never',
   'scss/dollar-variable-no-namespaced-assignment': true,
   'scss/dollar-variable-pattern': '^[_]?[a-z0-9]+([a-z0-9_]+[a-z0-9]+)?$',
+  'scss/function-no-unknown': true,
   'scss/double-slash-comment-whitespace-inside': 'always',
   'scss/function-calculation-no-interpolation': true,
   'scss/function-color-relative': true,
