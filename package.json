@@ -2,7 +2,7 @@
   "name": "stylelint-config-universal-code",
   "description": "📦 Stylelint configuration for fix errors before they cause problems in your code. It can also help you to develop good coding habits that will make your code easier to maintain in the long run.",
   "author": "Luis Monsalve <TheElegantCoding>",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "clean-architecture",
     "clean-code",
