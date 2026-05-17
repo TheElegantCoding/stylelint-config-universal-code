@@ -16,6 +16,12 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.7] - 2026-05-17
+
+- **chore:** update dependencies and fix files array formatting for consistency [`dae2fa1`](https://github.com/TheElegantCoding/stylelint-config-elegant-coding/commit/dae2fa1) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **style:** remove 'scss/function-no-unknown' rule for improved clarity [`f4d9982`](https://github.com/TheElegantCoding/stylelint-config-elegant-coding/commit/f4d9982) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+- **style:** add 'scss/function-no-unknown' rule to sassDisabledRule for improved clarity [`561eb6e`](https://github.com/TheElegantCoding/stylelint-config-elegant-coding/commit/561eb6e) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
+
 ## 🚀 Version [1.0.6] - 2026-05-16
 
 - **style:** remove unused stylistic rule for improved clarity [`bc4cb67`](https://github.com/TheElegantCoding/stylelint-config-elegant-coding/commit/bc4cb67) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
