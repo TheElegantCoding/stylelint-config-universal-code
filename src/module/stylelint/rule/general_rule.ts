@@ -44,7 +44,6 @@ const generalRule = {
   'function-calc-no-unspaced-operator': true,
   'function-linear-gradient-no-nonstandard-direction': true,
   'function-name-case': 'lower',
-  'function-no-unknown': true,
   'function-url-no-scheme-relative': true,
   'function-url-quotes': 'always',
   'hue-degree-notation': 'angle',
