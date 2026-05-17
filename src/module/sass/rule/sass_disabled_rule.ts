@@ -3,6 +3,7 @@ const sassDisabledRule = {
   'scss/at-else-closing-brace-newline-after': null,
   'scss/at-else-closing-brace-space-after': null,
   'scss/at-else-empty-line-before': null,
+  'scss/function-no-unknown': null,
   'scss/at-if-closing-brace-newline-after': null,
   'scss/at-if-closing-brace-space-after': null,
   'scss/at-mixin-named-arguments': null,
