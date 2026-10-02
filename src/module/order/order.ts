@@ -21,11 +21,13 @@ const propertyGroups = [
   ['include']
 ];
 
-const propertiesOrder = propertyGroups.map((properties) => ({
-  emptyLineBefore: 'never',
-  noEmptyLineBetween: true,
-  properties
-}));
+const propertiesOrder = propertyGroups.map((properties) => {
+  return {
+    emptyLineBefore: 'never',
+    noEmptyLineBetween: true,
+    properties
+  };
+});
 
 const order = {
   plugins: ['stylelint-order'],
