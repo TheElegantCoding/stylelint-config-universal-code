@@ -16,6 +16,18 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.10] - 2026-10-15
+
+- [[`64d225b`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/64d225b)] - **style:** update output formats and add splitting option in tsup configuration by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`e29d636`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/e29d636)] - **style:** correct spelling in .gitattributes comment for clarity by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`9352c49`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/9352c49)] - **style:** update VSCode settings for improved formatting and ESLint configuration by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`f60d3ba`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/f60d3ba)] - **style:** update JavaScript/TypeScript formatting settings for consistency by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`a62e2a6`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/a62e2a6)] - **style:** refactor propertiesOrder mapping for improved readability by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`d2b3947`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/d2b3947)] - **style:** remove unnecessary spaces in labels for issue templates by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`86bb318`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/86bb318)] - **style:** remove unnecessary .npmrc configurations for cleaner setup by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`b93f629`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/b93f629)] - **style:** add .eslintcache to .gitignore for improved dependency management by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`2941421`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/2941421)] - **style:** update build script and dependencies for improved performance and compatibility by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+
 ## 🚀 Version [1.0.9] - 2026-08-15
 
 - **style:** format SCSS mixin for improved readability and consistency [`25190db`](https://github.com/TheElegantCoding/stylelint-config-elegant-coding/commit/25190db) by [`@TheElegantCoding`](https://github.com/TheElegantCoding)
