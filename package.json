@@ -42,7 +42,7 @@
     "preinstall": "npx only-allow bun",
     "postinstall": "bunx gitlys init",
     "release": "bun run build && bunx gitlys release",
-    "build": "bun run lint && bun run type-check && tsup src/index.ts src/sass.ts --format esm,cjs --clean --dts",
+    "build": "bun run lint && bun run type-check && tsup src/index.ts src/sass.ts",
     "dev": "tsup src/index.ts src/sass.ts --format esm,cjs --watch",
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint . --fix --cache"
