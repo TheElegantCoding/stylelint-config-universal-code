@@ -16,6 +16,15 @@ The list of changes have the description - commit - author.
 
 ## Released
 
+## 🚀 Version [1.0.11] - 2026-10-16
+
+- [[`ab73e22`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/ab73e22)] - **style:** add ignore patterns for build artifacts and dependencies by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`89cbe90`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/89cbe90)] - **style:** add ignoreFiles property to base configuration by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`ee79292`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/ee79292)] - **style:** remove unused import fields from exports in package.json by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`5772a0b`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/5772a0b)] - **style:** update .npmrc configuration for clarity and consistency by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`3c3ff20`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/3c3ff20)] - **style:** remove unnecessary flags from build script in package.json by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+- [[`ca3ad8f`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/ca3ad8f)] - **style:** fix regex pattern for SCSS at-function to allow hyphens by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
+
 ## 🚀 Version [1.0.10] - 2026-10-15
 
 - [[`64d225b`](https://github.com/TheElegantCoding/stylelint-config-universal-code/commit/64d225b)] - **style:** update output formats and add splitting option in tsup configuration by [`@Luis Monsalve`](https://github.com/Luis Monsalve)
